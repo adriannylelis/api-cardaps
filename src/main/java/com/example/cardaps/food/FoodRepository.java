@@ -1,2 +1,7 @@
-package com.example.cardaps.food;public interface FoodRepository {
+package com.example.cardaps.food;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FoodRepository extends JpaRepository<Food, Long> {
+
 }
